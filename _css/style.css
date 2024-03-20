@@ -1,7 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* Setup */
 
-* {
-    margin: 0px;
+body {
     padding: 0px;
+    margin: 0px;
     font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    background-color: #fff;
 }
+
+
+/*Header*/
+
+header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 10px 0px;
+    background-color: #FFDE6A;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+header ul li {
+    padding: 0px 20px 0px 20px;
+}
+
+.custom-button {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #6A8BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    white-space: nowrap;
+    border: none;
+    outline: none;
+}
+
+.custom-button svg {
+    margin-right: 7px;
+}
+
+.nav-link {
+    color: #000;
+    white-space: nowrap;
+}
+
+.nav-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#logoA {
+    margin-left: 1%;
+}
+
+
+
+/* Main */
+
+main {
+    margin-top: 50px;
+}
+
+#homeSection,
+#homeSection h1,
+#homeSection h2,
+#homeSection h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.custom-row {
+    flex:1.3;
+}
+#homeSection h1 {
+    font-size: 30px;
+    line-height: 1.5em;
+}
+#homeSection h2 {
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background: linear-gradient(90deg, rgba(255,106,213,1) 50%, rgba(106,255,148,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#homeSection h3 {
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-weight: lighter;
+}
+
+#homeSection ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#homeSection ul li {
+    color: grey;
+    opacity: 0.70;
+}
+
+
+#homeSection ul li svg{
+    margin-top: 0.3em;
+    margin-right: 2px;
+}
+#h1TextDestControle {
+    color: #6A8BFF;
+  }
+
+  #h1TextDestParkpass {
+    color: #6A8BFF;
+
+  }
