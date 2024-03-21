@@ -42,6 +42,12 @@ header ul li {
     outline: none;
 }
 
+.custom-button:hover {
+    color: #392A08;
+    background-color: #F266CD;
+
+}
+
 .custom-button svg {
     margin-right: 7px;
 }
@@ -74,9 +80,7 @@ main {
 #homeSection h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-}
-.custom-row {
-    flex:1.3;
+    margin: 20px 0;
 }
 #homeSection h1 {
     font-size: 30px;
@@ -87,7 +91,8 @@ main {
     line-height: 1.5em;
     margin-top: 12px;
     margin-bottom: 12px;
-    background: linear-gradient(90deg, rgba(255,106,213,1) 50%, rgba(106,255,148,1) 100%);
+    background: rgb(53,100,242);
+    background: linear-gradient(90deg, rgba(53,100,242,1) 0%, rgba(102,137,242,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -98,28 +103,87 @@ main {
     font-weight: lighter;
 }
 
+#homeSection .custom-button {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgb(53,100,242);
+    background: linear-gradient(90deg, rgba(53,100,242,1) 0%, rgba(100,53,242,1) 50%, rgba(102,137,242,1) 100%);
+    transition: filter 0.3s;
+
+}
+
+#homeSection .custom-button:hover {
+    color: #fff;
+    filter: brightness(1.15); /* Ajusta o brilho quando o botão está em estado de hover */
+}
+
 #homeSection ul {
     list-style-type: none;
     padding: 0;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    white-space: nowrap;
+
 }
 
 #homeSection ul li {
     color: grey;
     opacity: 0.70;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+}
+#homeSection ul li p {
+    margin: 0px;
+    padding: 0px;
 }
 
-
-#homeSection ul li svg{
-    margin-top: 0.3em;
-    margin-right: 2px;
+#homeSection ul li svg {
+    box-sizing: border-box;
+    color: #66F289;
+    margin-right: 10px;
 }
 #h1TextDestControle {
-    color: #6A8BFF;
-  }
+    color: #F2C335;
+}
 
   #h1TextDestParkpass {
-    color: #6A8BFF;
+    color: #F2C335;
 
-  }
+}
+
+#demoContent {
+    overflow: hidden;
+    width: 400px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 60px;
+    border: solid 2px #000;
+    box-shadow: 0 3px 8px #0000003d;
+    
+
+}
+
+#demoContent img {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 90%;
+
+}
