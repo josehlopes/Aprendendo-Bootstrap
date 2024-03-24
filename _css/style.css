@@ -187,3 +187,84 @@ main {
     max-height: 90%;
 
 }
+
+/* How Works */
+
+.howWorksContent {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.howWorksContent h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 30px;
+    line-height: 1em;
+    color: #000;
+
+}
+.howWorksContent h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 26px;
+    line-height: 1em;
+    color: #6A8BFF;
+}
+
+
+.howWorksContent p {
+    font-weight: lighter;
+    font-size: 22px;
+    line-height: 1em;
+}
+
+
+.worksBox {
+    overflow: hidden;
+    width: 400px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 60px;
+    border: solid 2px #000;
+    box-shadow: 0 3px 8px #0000003d;
+}
+
+.worksBox img {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+#howWorksSection .custom-button {
+    position: relative;
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgb(53,100,242);
+    background: linear-gradient(90deg, rgba(53,100,242,1) 0%, rgba(100,53,242,1) 50%, rgba(102,137,242,1) 100%);
+    transition: filter 0.3s;
+
+}
+
+#howWorksSection .custom-button:hover {
+    color: #fff;
+    filter: brightness(1.15);
+}
